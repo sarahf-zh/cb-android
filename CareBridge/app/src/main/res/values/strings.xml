@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">CareBridge</string>
+    <string name="detected_items">Detected Pokémon</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="intro_1_title">Gotta catch \'em all!</string>
+    <string name="intro_1_desc">This is an experiment that uses state of the art Machine Learning algorithms to identify Pokémon in the provided Image.</string>
+    <string name="login_desc">Login for the best experience and the ability to improve the app with personalized feedback.</string>
+    <string name="logout_text">Do you wish to log out?</string>
+    <string name="login_text">Do you wish to log in?</string>
+    <string name="logout_message">Login to provide feedback and improve the app</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="feedback_notification">Notification for processing the feedback</string>
+    <string name="sending_feedback">Sending Feedback</string>
+    <string name="feedback_in_progress">Feedback in progress</string>
+    <string name="thanks_for_feedback">Thank you for the feedback!</string>
+    <string name="feedback_failed">Failed to submit, please retry</string>
+    <string name="purchase_success">You\'re awesome and you know it!</string>
+    <string name="capture">Tap to Capture!</string>
+    <string name="capture_message">For best results, keep the object within the frame</string>
+    <string name="sign_in_error">Sign in failed, please check your network connection</string>
+    <string name="no_network">No network connection, please retry later</string>
+
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="date_header_today">Today</string>
+    <string name="date_header_yesterday">Yesterday</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+    </string-array>
+
+    <string name="start_typing_status">Start typing</string>
+    <string name="stop_typing_status">Stop typing</string>
+
+    <string name="directions">Directions</string>
+    <string name="_4_1">4.1</string>
+    <string name="location_address">Location Address</string>
+    <string name="location_name">Location Name</string>
+    <string name="open">Open</string>
+    <string name="_1606">(1606)</string>
+
+    <string-array name="disease_names">
+        <item>Fever</item>
+        <item>Dengue</item>
+        <item>Headache</item>
+        <item>Tuberculosis</item>
+        <item>Influenza</item>
+        <item>Diabetes</item>
+    </string-array>
+
+    <string-array name="disease_symptoms">
+        <item>
+            <![CDATA[
+                <b>Common fever symptoms including:</b><br>
+                <br>* <b>Feeling unwell:</b> You might feel hot and sweaty, or have chills and shivering.
+                <br>* <b>Elevated body temperature:</b> usually caused by an infection.
+                <br>* <b>Headache:</b> You might have a headache or body aches
+                <br>* <b>Sweating:</b> You might sweat on and off or constantly
+                <br>* <b>Flushed face:</b> Your face might be flushed or your skin hot
+                <br>* <b>Faster heart rate:</b> Your heart might beat faster than normal
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+                <b>Dengue symptoms include:</b><br>
+                <br>* <b>Fever:</b> A high fever that usually begins 4–7 days after being bitten by an infected mosquito
+                <br>* <b>Pain:</b> Pain behind the eyes, muscle, joint, or bone pain
+                <br>* <b>Nausea and vomiting:</b> Gastrointestinal symptoms that may occur
+                <br>* <b>Swollen lymph nodes:</b> May be present
+                <br>* <b>Rash:</b> A flat, red rash may develop 2–5 days after the fever begins, followed by a second rash of raised bumps 3–6 days after the fever begins
+                <br>* <b>Bleeding:</b> Mild bleeding, such as nose or gums bleeding, or easy bruising
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+                <b>Some common types of headaches include:</b><br>
+                <br>* <b>Tension headache:</b> the most common type of headache, usually caused by tight muscles in the neck, shoulders, scalp, or jaw. Tension headaches are often caused by stress, depression, anxiety, or holding your head in an abnormal position.
+                <br>* <b>Migraine:</b> this can cause severe, throbbing pain that usually starts around the eye and temple before spreading to the back of the head. Migraines can also cause nausea, vomiting, and sensitivity to light, sound, or smells.
+                <br>* <b>Cluster headache:</b> this start quickly with intense, sharp, or burning pain around or behind one of your eyes. The affected eye may also be red, watery, or have a droopy or swollen eyelid.
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+                <b>Symptoms of tuberculosis (TB) include:</b><br>
+                <br>* A cough that lasts three weeks or longer
+                <br>* Coughing up blood or phlegm
+                <br>* Chest pain
+                <br>* Weight loss
+                <br>* Loss of appetite
+                <br>* Fever
+                <br>* Chills
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+                <b>Symptoms of influenza, or the flu include:</b><br>
+                <br>* Fever or feeling feverish
+                <br>* Chills or sweats
+                <br>* Cough
+                <br>* Sore throat
+                <br>* Runny or stuffy nose
+                <br>* Muscle or body aches and headaches
+                <br>* Fatigue
+                <br>* Vomiting and diarrhea, more common in children
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+                <b>Symptoms of diabetes include:</b><br>
+                <br>* <b>Frequent urination:</b> Urinating more than usual, especially at night
+                <br>* <b>Excessive thirst:</b> Feeling very thirsty
+                <br>* <b>Weight loss:</b> Losing weight without trying
+                <br>* <b>Blurred vision:</b> Having blurry vision
+                <br>* <b>Fatigue:</b> Feeling very tired
+                <br>* <b>low-healing sores:</b> Cuts or ulcers that are slow to heal
+                <br>* <b>Frequent infections:</b> Getting a lot of infections, such as gum, skin, and vaginal infections
+                <br>* <b>Itchy skin:</b> Itchy skin, usually around the vaginal or groin area
+            ]]>
+        </item>
+    </string-array>
+
+    <string-array name="disease_treatment">
+        <item>
+            <![CDATA[
+                <b>Here are some ways to treat a fever:</b><br>
+                <br>* <b>Rest:</b> Get plenty of rest, including bed rest.
+                <br>* <b>Hydrate:</b> Drink lots of fluids, like water, to avoid dehydration. You should urinate about every 6 hours, and your urine should be pale yellow. Avoid alcohol, tea, and coffee, which can dehydrate you.
+                <br>* <b>Take medication:</b> If you are uncomfortable, you can take acetaminophen (Tylenol) or ibuprofen (Advil, Motrin IB) to reduce your fever. Follow the instructions on the label for the correct dose. You can take acetaminophen every 4 to 6 hours, and ibuprofen every 6 to 8 hours. Do not give aspirin to children unless a doctor tells you to.
+                <br>* <b>Cool down:</b> Sponge your skin with lukewarm water or stand in front of a fan. Avoid cold showers or baths, which can make your fever worse.
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+ <b>Treatment for dengue fever include:</b><br>
+<br>* There is no specific cure or medication for dengue fever, but there are ways to manage the symptoms.
+<br>* <b>Hydration:</b> Drink plenty of fluids to stay hydrated.
+<br>* <b>Rest:</b> Get as much rest as possible.
+<br>* <b>Acetaminophen:</b> Take acetaminophen (Tylenol, others) to reduce fever and muscle pain.
+<br>* <b>Avoid other pain relievers:</b> Avoid aspirin, ibuprofen (Advil, Motrin IB, others), and naproxen sodium (Aleve) as they can increase the risk of bleeding complications.
+<br>* <b>Avoid mosquito bites:</b> To reduce the risk of further transmission, avoid mosquito bites.
+            ]]>
+         </item>
+
+        <item>
+            <![CDATA[
+ <b>Headache treatment depends on the type of headache:</b><br>
+<br>* <b>Pain relievers:</b> over-the-counter pain relievers like aspirin, ibuprofen (Advil), or acetaminophen (Tylenol) can help with headaches. You can also try combination pain relievers that include caffeine or a sedative. However, you should not take pain relievers more than nine days per month or two doses per episode.
+<br>* <b>Hydration:</b> drink plenty of fluids, such as water, sports drinks, or oral rehydration powder. Dehydration can cause headaches because it shrinks brain tissue and puts pressure on nerves.
+<br>* <b>Massage:</b> deep tissue massage can help with headaches that affect specific areas of the head.
+            ]]>
+       </item>
+
+        <item>
+            <![CDATA[
+<b>Tuberculosis (TB) is treated with antibiotics:</b><br>
+<br>* Treatment plan depends on whether the TB is active or inactive, and if it is drug-resistant.
+<br>* <b>Active TB</b>: treatment typically involves a combination of antibiotics taken for four, six, or nine months. Common antibiotics used to treat TB include isoniazid, rifampin, pyrazinamide, ethambutol, and streptomycin.
+<br>* <b>Inactive TB</b>: treatment usually involves taking antibiotics for three, four, six, or nine months.
+<br>* <b>Drug-resistant TB</b>: treatment involves special medicines and can take months or years.
+            ]]>
+        </item>
+
+        <item>
+            <![CDATA[
+ Influenza (flu) can be treated with antiviral drugs, rest, fluids, and over-the-counter pain relievers:<br>
+<br>* <b>Antiviral drugs:</b> These prescription medications can shorten the length of your illness and help prevent complications. The CDC recommends four FDA-approved antiviral drugs:
+Oseltamivir phosphate (Tamiflu) , Zanamivir (Relenza) , Peramivir (Rapivab) , Baloxavir marboxil (Xofluza)
+Antiviral drugs work best when started within two days of the onset of symptoms. Side effects may include breathing issues, nausea, vomiting, or diarrhea.
+<br>* <b>Rest, fluids, and over-the-counter pain relievers:</b> These can help you feel better.
+<br>* <b>Aromatherapy:</b> Inhaling oils like peppermint and eucalyptus can help reduce congestion. Rubbing camphor or menthol salve around your nose can help break up mucus.
+            ]]>
+       </item>
+
+        <item>
+            <![CDATA[
+                Diabetes treatments vary depending on the type of diabetes and may include:
+                <br><br>* <b>Insulin</b>
+                <br>   A necessary treatment for type 1 diabetes, and sometimes for type 2 diabetes. Insulin injections or an insulin pump can replace the insulin the body does not produce.
+                <br><br>* <b>Lifestyle changes</b>
+                <br>  A healthy lifestyle is one of the most important ways to treat diabetes. This includes: Eating healthy, Exercising regularly, Limiting inactivity
+                <br><br>* <b>Oral medications</b>
+                <br>  Some people with type 2 diabetes may need to take oral medications to help manage their blood sugar levels. These include:
+                <br><br>** <b>Metformin</b>, a biguanide that reduces the amount of glucose absorbed from food and made by the liver
+                <br>** <b>Dipeptidyl</b> peptidase-4 inhibitors (DPP-4 inhibitors or gliptins)
+                <br>** <b>Alpha-glucosidase inhibitors (AGIs)</b>
+             ]]>
+        </item>
+
+    </string-array>
+
+</resources>
