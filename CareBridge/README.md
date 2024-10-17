@@ -4,13 +4,13 @@
 
 CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
 
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.26.25%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.27.59%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.28.17%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.28.33%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.29.04%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.29.17%E2%80%AFPM.png)
-![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screenshot%202024-10-16%20at%207.29.38%E2%80%AFPM.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png)
 
 Features
 CareBridge offers three core functionalities through its main tabs:
