@@ -177,7 +177,7 @@ public class TheTherapist extends BaseMessageListActivity
 
     private void setUpBot() {
         try {
-            InputStream stream = this.getResources().openRawResource(R.raw.credentials1);
+            InputStream stream = this.getResources().openRawResource(R.raw.credentials);
             GoogleCredentials credentials = GoogleCredentials.fromStream(stream)
                     .createScoped(Lists.newArrayList("https://www.googleapis.com/auth/cloud-platform"));
             String projectId = ((ServiceAccountCredentials) credentials).getProjectId();

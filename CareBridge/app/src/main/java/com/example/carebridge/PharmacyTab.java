@@ -24,8 +24,6 @@ public class PharmacyTab extends Fragment {
                              @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_pharmacy, container, false);
-        //context = getActivity();
-
         WebView webView = (WebView)rootView.findViewById(R.id.pharmacy);
 
         webView.setInitialScale(1);
@@ -45,7 +43,8 @@ public class PharmacyTab extends Fragment {
              }
          });
 
-        webView.loadUrl("https://www.alldaychemist.com");
+        webView.loadUrl("https://www.healthwarehouse.com");
+        //webView.loadUrl("https://www.alldaychemist.com");
         //webView.loadUrl("https://pharmacy.amazon.com");
         //webView.loadUrl("https://www.goodrx.com/");
         return rootView;
