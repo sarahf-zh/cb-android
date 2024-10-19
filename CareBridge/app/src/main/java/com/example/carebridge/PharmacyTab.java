@@ -32,6 +32,17 @@ public class PharmacyTab extends Fragment {
 
         super.onCreateView(inflater, container, savedInstanceState);
         context = getContext();
+
+        ImageButton backButton = ((MainActivity)getActivity()).getBackButton();
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (webView.canGoBack()) {
+                    webView.goBack();
+                }
+            }
+        });
+
         ImageButton menuButton = ((MainActivity)getActivity()).getMenuButton();
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override

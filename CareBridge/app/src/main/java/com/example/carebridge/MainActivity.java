@@ -22,11 +22,15 @@ public class MainActivity extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
     private TabLayout tabLayout;
+    private ImageButton backButton;
     private ImageButton menuButton;
     private TextView mtitleTxt;
 
     private static final String TAG = "MainActivity2";
 
+    public ImageButton getBackButton() {
+        return backButton;
+    }
     public ImageButton getMenuButton() {
         return menuButton;
     }
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mtitleTxt = (TextView)findViewById(R.id.titleTxt);
+        backButton = (ImageButton)findViewById(R.id.btnBack);
         menuButton = (ImageButton)findViewById(R.id.btnMenu);
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         // Set up the ViewPager with the sections adapter.
@@ -70,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
-        //tabLayout.selectTab(tabLayout.getTabAt(0));
 
+        //tabLayout.selectTab(tabLayout.getTabAt(0));
     }
 
     private void changeTabSelection(TabLayout.Tab tab, boolean selected) {
@@ -84,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         if (selected) {
             int pos = tab.getPosition();
             mtitleTxt.setText(pos == 0? "Medical Help": (pos == 1? "Online Pharmacy" : "Nearby Care Provider"));
+            backButton.setVisibility(pos == 1 ? View.VISIBLE : View.INVISIBLE);
             menuButton.setVisibility(pos == 1 ? View.VISIBLE : View.INVISIBLE);
         }
     }
