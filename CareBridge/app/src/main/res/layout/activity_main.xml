@@ -34,15 +34,26 @@
 
             <TextView
                 android:id="@+id/titleTxt"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
                 android:gravity="center"
                 android:text="Medical Help"
                 android:textAllCaps="false"
                 android:textColor="@android:color/background_light"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                android:background="@drawable/ic_menu"
+                android:visibility="invisible"/>
 
         </androidx.appcompat.widget.Toolbar>
 

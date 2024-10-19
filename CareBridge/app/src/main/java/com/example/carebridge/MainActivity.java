@@ -9,6 +9,9 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import dagger.hilt.android.AndroidEntryPoint;
@@ -19,10 +22,14 @@ public class MainActivity extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
     private TabLayout tabLayout;
-    private Toolbar mToolbar;
+    private ImageButton menuButton;
     private TextView mtitleTxt;
 
     private static final String TAG = "MainActivity2";
+
+    public ImageButton getMenuButton() {
+        return menuButton;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mtitleTxt = (TextView)findViewById(R.id.titleTxt);
+        menuButton = (ImageButton)findViewById(R.id.btnMenu);
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -76,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         if (selected) {
             int pos = tab.getPosition();
             mtitleTxt.setText(pos == 0? "Medical Help": (pos == 1? "Online Pharmacy" : "Nearby Care Provider"));
+            menuButton.setVisibility(pos == 1 ? View.VISIBLE : View.INVISIBLE);
         }
     }
 

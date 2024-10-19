@@ -11,6 +11,8 @@ CareBridge is an Android application developed by Sarah Zhou. It is designed to 
 ![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png)
 ![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png)
 ![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png)
+![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png)
 
 Features
 CareBridge offers three core functionalities through its main tabs:
