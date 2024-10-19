@@ -1,6 +1,6 @@
 
 
-## CareBridge - A mobile app intends to bridge the gaps in medical care
+## CareBridge - An android app intends to bridge the gaps in medical care
 
 CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
 
@@ -21,9 +21,11 @@ CareBridge offers three core functionalities through its main tabs:
 
 Doctor Bot: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by Med-Gemini, a group of advanced language models trained on a vast dataset of medical information.
 Medical Advice Cards: Access easily digestible information and advice on common health conditions such as fever, influenza, diabetes, and tuberculosis.
+
 2. Online Pharmacy:
 
-Access to Affordable Medication: Purchase medication without insurance through an embedded webpage for the online pharmacy, www.alldaychemist.com.
+Access to Affordable Medication: Purchase medication without insurance through an embedded webpage for three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com.
+
 3. Nearby Hospitals:
 
 Accessible Map View: Locate nearby medical care providers within a 3000-meter radius using an embedded map with interactive markers.
