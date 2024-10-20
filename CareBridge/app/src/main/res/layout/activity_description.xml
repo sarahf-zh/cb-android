@@ -66,23 +66,34 @@
                 android:fitsSystemWindows="false"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar_des"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="top"
-                android:layout_weight="1"
-                android:background="@drawable/toolbar_color"
-                android:text="Disease Title"
-                android:contentInsetLeft="0dp"
-                android:contentInsetStart="0dp"
-                android:contentInsetRight="0dp"
-                android:contentInsetEnd="0dp"
-                app:contentInsetLeft="0dp"
-                app:contentInsetStart="0dp"
-                app:contentInsetRight="0dp"
-                app:contentInsetEnd="0dp">
-            </androidx.appcompat.widget.Toolbar>
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="top"
+                    android:layout_weight="1"
+                    android:background="@drawable/toolbar_color"
+                    android:text="Disease Title"
+                    android:contentInsetLeft="0dp"
+                    android:contentInsetStart="0dp"
+                    android:contentInsetRight="0dp"
+                    android:contentInsetEnd="0dp"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp"
+                    app:contentInsetRight="0dp"
+                    app:contentInsetEnd="0dp">
+
+                    <ImageButton
+                        android:id="@+id/menuBtn"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:contentDescription=""
+                        android:layout_gravity="center_vertical|right"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/ic_more_vert_white_24dp"
+                        />
+                </androidx.appcompat.widget.Toolbar>
             </com.google.android.material.appbar.AppBarLayout>
 
             <ImageView
