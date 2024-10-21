@@ -14,7 +14,8 @@ CareBridge is an Android application developed by Sarah Zhou. It is designed to 
 ![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png)
 ![alt-text](https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png)
 
-##Features
+## Features
+
 CareBridge offers three core functionalities through its main tabs:
 
 1. Home:
@@ -35,7 +36,8 @@ Detailed Provider Information: View comprehensive information about each provide
 
 Dynamic Updates: As the user navigates the map, nearby medical providers are automatically updated without requiring manual searches. This is particularly helpful for users with visual impairments.
 
-##Technology Stack
+## Technology Stack
+
 CareBridge leverages a variety of technologies to deliver its features:
 
 Android SDK: Used for core application development, including UI design with Material Design components, map views, web views, speech to text, and view binding.
