@@ -4,17 +4,21 @@
 
 CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
 
-<p>
+<p align="center">
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" align="left">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" align="right">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" align="right">
 </p>
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" width="300" height="640">
+<p align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" align="left">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png" align="right">
+</p>
+<p align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png" align="left">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" align="right">
+</p>
 
 ## Features
 
