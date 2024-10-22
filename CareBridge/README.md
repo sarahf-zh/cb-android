@@ -7,25 +7,25 @@ CareBridge is an Android application developed by Sarah Zhou. It is designed to 
 
 <table>
   <tr>
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" align="left"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" width = "200" hight = "427" align="left"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" align="center"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" width = "200" hight = "427" align="center"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" align="right"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" width = "200" hight = "427" align="right"></td>
   </tr>
 
   <tr>
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" align="left"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" width = "200" hight = "427" align="left"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png" align="center"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png" width = "200" hight = "427" align="center"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png" align="right"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png" width = "200" hight = "427" align="right"></td>
   </tr>
 
   </tr>
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png" align="left"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png" width = "200" hight = "427" align="left"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png" align="center"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png" width = "200" hight = "427" align="center"></td>
 
 <td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" align="right"></td>
  </tr>
@@ -70,14 +70,14 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 ## Data Flow Diagram
 1) Chat with Doctor Bot
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/
+Flow1.png" width = "500" hight = "180" align="center">
 
 2) Medical Advice Cards
-Flow1.png" width = "800" hight = "275" align="center">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow2.png" width = "800" hight = "275" align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow2.png" width = "500" hight = "180" align="center">
 
 3) Online Pharmacy 
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow3.png" width = "800" hight = "275" align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow3.png" width = "500" hight = "180" align="center">
 
 4) Nearby Care Providers
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow4.png" width = "800" hight = "275" align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow4.png" width = "500" hight = "180" align="center">
 
