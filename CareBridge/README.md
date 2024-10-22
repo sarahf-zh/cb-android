@@ -4,8 +4,10 @@
 
 CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
 
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" width="300" height="640">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" width="300" height="640">
+<p align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" width="50%">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" width="50%">
+</p>
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" width="300" height="640">
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" width="300" height="640">
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png" width="300" height="640">
@@ -26,7 +28,7 @@ CareBridge offers three core functionalities through its main tabs:
 
 ### 2.Online Pharmacy:
 
-<ins>Access to Affordable Medication</ins>: Purchase medication without insurance through an embedded webpage for three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com.
+<ins>Access to Affordable Medication</ins>: Purchase medication without insurance through an embedded webpage for three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com
 
 ### 3.Nearby Hospitals:
 
