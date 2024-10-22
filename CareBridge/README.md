@@ -69,8 +69,7 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 ## Data Flow Diagram
 1) Chat with Doctor Bot
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/
-Flow1.png" width = "500" hight = "180" align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow1.png" width = "500" hight = "180" align="center">
 
 2) Medical Advice Cards
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow2.png" width = "500" hight = "180" align="center">
