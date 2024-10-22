@@ -4,17 +4,38 @@
 
 CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
 
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow1.png" width = "800" hight = "275" align="center">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow2.png" width = "800" hight = "275" align="center">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow3.png" width = "800" hight = "275" align="center">
-<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow4.png" width = "800" hight = "275" align="center">
 
+<table>
+  <tr>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen1.png" align="left"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen2.png" align="center"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen3.png" align="right"></td>
+  </tr>
+
+  <tr>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen4.png" align="left"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen5.png" align="center"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen6.png" align="right"></td>
+  </tr>
+
+  </tr>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen7.png" align="left"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png" align="center"></td>
+
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" align="right"></td>
+ </tr>
+</table>
 
 ## Features
 
 CareBridge offers three core functionalities through its main tabs:
 
-#### 1.Home:
+#### 1.Medical Help:
 
 <ins>Doctor Bot</ins>: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by Med-Gemini, a group of advanced language models trained on a vast dataset of medical information.
 
@@ -24,7 +45,7 @@ CareBridge offers three core functionalities through its main tabs:
 
 <ins>Access to Affordable Medication</ins>: Purchase medication without insurance through an embedded webpage for three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com
 
-#### 3.Nearby Hospitals:
+#### 3.Nearby Care Providers:
 
 <ins>Accessible Map View</ins>: Locate nearby medical care providers within a 3000-meter radius using an embedded map with interactive markers.
 
@@ -47,3 +68,16 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 
 ## Data Flow Diagram
+1) Chat with Doctor Bot
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/
+
+2) Medical Advice Cards
+Flow1.png" width = "800" hight = "275" align="center">
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow2.png" width = "800" hight = "275" align="center">
+
+3) Online Pharmacy 
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow3.png" width = "800" hight = "275" align="center">
+
+4) Nearby Care Providers
+<img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow4.png" width = "800" hight = "275" align="center">
+
