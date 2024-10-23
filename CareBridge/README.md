@@ -54,7 +54,7 @@ CareBridge offers three core functionalities through its main tabs:
 <ins>Dynamic Updates</ins>: As the user navigates the map and taps on any location, nearby healthcare providers show up without requiring manual searches. This is particularly helpful for users with visual impairments.
 
 
-## Technology Stack
+## Technologies Behind CareBridge
 
 CareBridge leverages a variety of libraries and APIs to deliver its features:
 
