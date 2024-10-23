@@ -27,7 +27,7 @@ CareBridge is an Android application developed by Sarah Zhou, who studies at the
 
 <td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen8.png" width = "200" hight = "427" align="center"></td>
 
-<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" align="right"></td>
+<td><img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Screen9.png" width = "200" hight = "427" align="right"></td>
  </tr>
 </table>
 
