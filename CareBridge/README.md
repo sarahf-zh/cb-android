@@ -80,3 +80,12 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 4) Nearby Care Providers
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow4.png" width = "500" hight = "180" align="center">
 
+## Disclaimer
+After you check out the code, the app will compile and run, assuming you have set up the Android development environment. However, the "Chat with Doctor Bot" and "Nearby Care Providers" features will not work until you set up your own Google cloud projects and API key. The reason is that Google Cloud projects and API keys are developer private data that can not be shared with others, due to security risks and potential abuse, as explained [here](https://support.google.com/googleapi/answer/6310037?hl=en#:~:text=When%20you%20use%20API%20keys,unexpected%20charges%20on%20your%20account).
+
+Once you correctly configure the Dialog ES API credentials and the Places API key as explained below, those two features will work as expected:
+1) <ins>Chat with Doctor Bot</ins>: you need to set up your Dialog ES agent, its associated Google Cloud Project and generate Dialog ES API key as a json file, aka credentials.json. Please use the generated json file to replace the dummy version in CareBridge/app/src/main/res/raw/credentials.json
+
+2) <ins>Nearby Care Providers</ins>: you need to set up your Google Maps Platform Places API project and copy the API key into CareBridge/app/src/main/java/com/example/carebridge/utils/Constants.kt
+
+
