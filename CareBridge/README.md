@@ -2,7 +2,7 @@
 
 ## CareBridge - An android app bridging the gaps in healthcare accessibility
 
-CareBridge is an Android application developed by Sarah Zhou. It is designed to improve access to medical care for underserved populations. This includes individuals in areas with limited healthcare facilities, those who cannot afford health insurance, and people with visual impairments who may struggle with traditional map-based searches.
+CareBridge is an Android application developed by Sarah Zhou, who studies at the Castilleja school. The app is designed to empower underserved populations with the tools and information to access quality healthcare. This includes individuals in areas with limited healthcare facilities, those who cannot afford high medication costs or health insurance, and people with visual impairments who struggle with text query-based map searches.
 
 
 <table>
@@ -37,21 +37,21 @@ CareBridge offers three core functionalities through its main tabs:
 
 #### 1.Medical Help:
 
-<ins>Doctor Bot</ins>: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by Med-Gemini, a group of advanced language models trained on a vast dataset of medical information.
+<ins>Doctor Bot</ins>: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by Gemini, a group of advanced language models trained on a vast dataset including medical information.
 
 <ins>Medical Advice Cards</ins>: Access easily digestible information and advice on common health conditions such as fever, influenza, diabetes, and tuberculosis. Clicking the card open up the card detail screen, where speech to text functionality is available.
 
 #### 2.Online Pharmacy:
 
-<ins>Access to Affordable Medication</ins>: Purchase medication without insurance through an embedded webpage for three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com
+<ins>Access to Affordable Medication</ins>: Purchase medication without insurance through an embedded webpage of three different online pharmacies via menu options. The three online pharmacies are: www.healthwarehouse.com, www.alldaychemist.com and pharmacy.amazon.com
 
 #### 3.Nearby Care Providers:
 
-<ins>Accessible Map View</ins>: Locate nearby medical care providers within a 3000-meter radius using an embedded map with interactive markers.
+<ins>Accessible Map View</ins>: As a user opens up the embedded map, it automatically displays healthcare providers near his/her current location within a 3000-meter radius via interactive markers, without needing the user to type a search query.
 
-<ins>Detailed Provider Information</ins>: View comprehensive information about each provider by clicking on the corresponding marker.
+<ins>Detailed Provider Information</ins>: View details about each provider by clicking on the corresponding marker.
 
-<ins>Dynamic Updates</ins>: As the user navigates the map, nearby medical providers are automatically updated without requiring manual searches. This is particularly helpful for users with visual impairments.
+<ins>Dynamic Updates</ins>: As the user navigates the map and taps on any location, nearby healthcare providers show up without requiring manual searches. This is particularly helpful for users with visual impairments.
 
 
 ## Technology Stack
@@ -62,9 +62,9 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 <ins>Third-Party Libraries</ins>: Utilizes libraries like Volley, Retrofit, Dagger, and Picasso for networking, dependency injection, and image loading.
 
-<ins>Google Cloud Dialogflow ES API</ins>: Connects to a large language model (LLM) agent to power the "Doctor Bot" chat functionality.
+<ins>Google Cloud Dialogflow ES API</ins>: Connects to a LLM (Google Gemini) driven agent to power the "Doctor Bot" chat functionality.
 
-<ins>Google Maps Places API</ins>: Enables the app to search for and display nearby medical care providers based on the user's location.
+<ins>Google Maps Places API</ins>: Enables the app to search for and display nearby health care providers based on the user's location.
 
 
 ## Data Flow Diagram
