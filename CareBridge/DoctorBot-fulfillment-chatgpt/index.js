@@ -3,7 +3,6 @@
 
 'use esversion: 8';
 const actions = require("actions-on-google");
-// require('dotenv').config();
 const axios = require('axios');
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');

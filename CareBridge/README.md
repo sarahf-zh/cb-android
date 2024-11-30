@@ -71,6 +71,13 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 <ins>Google Maps Places API</ins>: Enables the app to search for and display nearby health care providers based on the user's location.
 
+## LLM Powered Doctor ChatBot
+One of the most important features of CareBridge is the LLM-powered Doctor ChatBot. This feature allows users to chat with a doctor-like AI agent to get medical diagnosis and advice. The chatbot is powered by Dialogflow ES, a Google Cloud product that allows developers to build and connect conversational interfaces to any application.    
+
+The ChatBot's backend is a Dialogflow ES agent, which can understand and generate natural language text. When a user sends a message to the chatbot, the Dialogflow ES agent forwards it to OpenAI's ChatGPT models with custom prompts designed to help ChatGPT understand the user's medical condition. ChatGPT then generates a response that is sent back to the user via the Dialogflow agent.
+
+The source code for the ChatBot is located in [CareBridge/DoctorBot-fulfillment-chatgpt/](https://github.com/sarahf-zh/my-android/tree/main/CareBridge/DoctorBot-fulfillment-chatgpt), which contains the Dialogflow ES agent fulfillment implementation calling ChatGPT via OpenAI's API. The API key and organization ID for OpenAI is not included in the repository due to security concerns. 
+
 
 ## Data Flow Diagram
 1) Chat with Doctor Bot
