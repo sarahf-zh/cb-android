@@ -42,7 +42,7 @@ CareBridge offers three core functionalities through its main tabs:
 
 #### 1.Medical Help:
 
-<ins>Doctor Bot</ins>: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by Gemini, a group of advanced language models trained on a vast dataset including medical information.
+<ins>Doctor Bot</ins>: Consult with an AI-powered "Doctor Bot" for medical diagnosis and advice. This feature is powered by LLM, a group of advanced language models trained on a vast dataset including medical information.
 
 <ins>Medical Advice Cards</ins>: Access easily digestible information and advice on common health conditions such as fever, influenza, diabetes, and tuberculosis. Clicking the card open up the card detail screen, where speech to text functionality is available.
 
@@ -67,7 +67,7 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 <ins>Third-Party Libraries</ins>: Utilizes libraries like Volley, Retrofit, Dagger, and Picasso for networking, dependency injection, and image loading.
 
-<ins>Google Cloud Dialogflow ES API</ins>: Connects to a LLM (Google Gemini) driven agent to power the "Doctor Bot" chat functionality.
+<ins>Google Cloud Dialogflow ES API</ins>: Connects to a LLM (ChatGPT or Google Gemini) driven agent to power the "Doctor Bot" chat functionality.
 
 <ins>Google Maps Places API</ins>: Enables the app to search for and display nearby health care providers based on the user's location.
 
