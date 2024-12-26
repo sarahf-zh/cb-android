@@ -2,6 +2,7 @@
 <meta name="google-site-verification" content="wYi5LFTOLdAuNqdmlaq49rouHahqCRERgwStgYC-EsU" />
 </head>
 
+
 ## CareBridge - An android app bridging the gaps in healthcare accessibility
 
 CareBridge is an Android application developed by Sarah Zhou, who studies at the Castilleja school. The app is designed to empower underserved populations with the tools and information to access healthcare, regardless of their conditions. This includes individuals in areas with limited healthcare facilities, those who cannot afford high medication costs or health insurance, and people with visual impairments who struggle with text query-based map searches.
