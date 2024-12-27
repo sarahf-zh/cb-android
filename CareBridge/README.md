@@ -1,7 +1,3 @@
-<head>
-<meta name="google-site-verification" content="wYi5LFTOLdAuNqdmlaq49rouHahqCRERgwStgYC-EsU" />
-</head>
-
 
 ## CareBridge - An android app bridging the gaps in healthcare accessibility
 
