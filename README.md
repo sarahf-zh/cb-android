@@ -1,17 +1,18 @@
 ## Repo for Sarah Zhou's android apps
 
 ### CareBridge
-CareBridge is an Android app designed to address the HealthCare accessibility gap, by providing underrepresented community with the tools and info to access basic healthcare. It features a doctor-like ChatBot powered by AI offering preliminary diagnosis, a set of medical advice cards with speech-to-text capability, an embedded web browser showing three online pharmacies and a customized map that is easily accessible for visually impaired users to easily find nearby healthcare providers.
+CareBridge is an Android app designed to address the HealthCare accessibility gap, by providing underrepresented community with the tools and info to access basic healthcare. To see a 3.5-minute video demo of the CareBridge app, please see [here](https://youtu.be/SSBY2XK9Ivg). 
+The source code for CareBridge is located [here](https://github.com/sarahf-zh/my-android/tree/main/CareBridge). The app features:
+1) A doctor-like ChatBot powered by AI offering preliminary diagnosis.
+2) A set of medical advice cards with speech-to-text capability.
+3) An embedded web browser showing three online pharmacies.
+4) A customized map that is easily accessible for visually impaired users to find nearby healthcare providers.
 
-#### Why CareBridge? 
-
+#### Why CareBridge?
 At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. CareBridge's creator, Sarah Zhou, believes that access to basic health care is a human right, regardless of someone's specific conditions.
 
-
 #### Technologies Behind CareBridge
-
 CareBridge leverages a variety of libraries and APIs to deliver its features:
-
 <ins>Android SDK</ins>: Used for core application development, including UI design with Material Design components, map views, web views, speech to text, and view binding.
 
 <ins>Third-Party Libraries</ins>: Utilizes libraries like Volley, Retrofit, Dagger, and Picasso for networking, dependency injection, and image loading.
@@ -22,8 +23,7 @@ CareBridge leverages a variety of libraries and APIs to deliver its features:
 
 
 #### Demo & DataFlow Diagrams
-
-To see a 3.5-minute video demo of the CareBridge app, please see [here](https://youtu.be/SSBY2XK9Ivg). The source code for CareBridge is located [here](https://github.com/sarahf-zh/my-android/tree/main/CareBridge). Below is CareBridge's Data Flow Diagram:
+Below str CareBridge's Data Flow Diagrams:
 
 1) Chat with Doctor Bot
 <img src="https://github.com/sarahf-zh/my-android/blob/main/CareBridge/screen_snapshots/Flow1.png" width = "500" hight = "180" align="center">
