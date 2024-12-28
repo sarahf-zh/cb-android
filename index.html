@@ -1,22 +1,81 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 14.0px Times; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="google-site-verification" content="TDboDPZ_spkew75o__T_twxVuDoNB7wEFCr27zfxLd4" />
+  <title>Repo for Sarah Zhou's Android Apps</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      font-size: 14px; /* Reduced base font size */
+    }
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    h4 {
+      font-size: 1em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   </style>
 </head>
 <body>
-<h4 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000"><span class="s1"><b>Welcome to Sarah's Android Apps</b></span></h4>
-<p class="p2"><span class="s1"><b>(1) CareBridge </b>is an Android app designed to address the HealthCare accessibility gap, by providing underrepresented community with the tools and info to access basic healthcare. It features a doctor-like ChatBot powered by AI offering preliminary diagnosis, a set of medical advice cards with speech-to-text capability, an embedded web browser showing three online pharmacies and a customized map that is easily accessible for visually impaired users to easily find nearby healthcare providers.</span></p>
-<p class="p2"><span class="s1">Why CareBridge? At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. CareBridge's creator, Sarah Zhou, believes that access to basic health care is a human right, regardless of someone's specific conditions.</span></p>
-<p class="p2"><span class="s1">The source code for CareBridge is located <a href="https://github.com/sarahf-zh/my-android/tree/main/CareBridge"><span class="s2">here</span></a>. CareBridge was built using the Android SDK, Google Cloud DialogFlow ES API, Google Maps Places API and the ChatGPT API. To see a 3.5-minute video demo of the CareBridge app, please see <a href="https://youtu.be/SSBY2XK9Ivg"><span class="s2">here</span></a>. </span></p>
+
+<h2>Repo for Sarah Zhou's Android Apps</h2>
+
+<h2>CareBridge</h2>
+
+<p>CareBridge is an Android app designed to address the HealthCare accessibility gap, by providing underrepresented communities with the tools and information to access basic healthcare. It features:</p>
+
+<ul>
+  <li>A doctor-like ChatBot powered by AI offering preliminary diagnosis.</li>
+  <li>A set of medical advice cards with speech-to-text capability.</li>
+  <li>An embedded web browser showing three online pharmacies.</li>
+  <li>A customized map that is easily accessible for visually impaired users to find nearby healthcare providers.</li>
+</ul>
+
+<h3>Why CareBridge?</h3>
+
+<p>At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. CareBridge's creator, Sarah Zhou, believes that access to basic health care is a human right, regardless of someone's specific conditions.</p>
+
+<h3>Technologies Behind CareBridge</h3>
+
+<p>CareBridge leverages a variety of libraries and APIs to deliver its features:</p>
+
+<ul>
+  <li><b>Android SDK</b>: Used for core application development, including UI design with Material Design components, map views, web views, speech to text, and view binding.</li>
+  <li><b>Third-Party Libraries</b>: Utilizes libraries like Volley, Retrofit, Dagger, and Picasso for networking, dependency injection, and image loading.</li>
+  <li><b>Google Cloud Dialogflow ES API</b>: Connects to a LLM (ChatGPT or Google Gemini) driven agent to power the "Doctor Bot" chat functionality.</li>
+  <li><b>Google Maps Places API</b>: Enables the app to search for and display nearby health care providers based on the user's location.</li>
+</ul>
+
+<h3>Demo & Data Flow Diagrams</h3>
+
+<p>To see a 3.5-minute video demo of the CareBridge app, please see <a href="https://youtu.be/SSBY2XK9Ivg">here</a>. The source code for CareBridge is located <a href="https://github.com/sarahf-zh/my-android/tree/main/CareBridge">here</a>. Below is CareBridge's Data Flow Diagram:</p>
+
+<h4>1) Chat with Doctor Bot</h4>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow1.png" alt="Chat with Doctor Bot" width="500" height="180">
+
+<h4>2) Medical Advice Cards</h4>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow2.png" alt="Medical Advice Cards" width="500" height="180">
+
+<h4>3) Online Pharmacy</h4>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow3.png" alt="Online Pharmacy" width="500" height="180">
+
+<h4>4) Nearby Care Providers</h4>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow4.png" alt="Nearby Care Providers" width="500" height="180">
 
 </body>
 </html>
