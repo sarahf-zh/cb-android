@@ -55,6 +55,7 @@ public class PharmacyTab extends Fragment {
                         int menuId = item.getItemId();
                         if (menuId == R.id.healthwarehouse) {
                             webView.loadUrl("https://www.healthwarehouse.com");
+                            webView.loadUrl("https://www.goodrx.com");
                         } else if (menuId == R.id.alldaychemist) {
                             webView.loadUrl("https://www.alldaychemist.com");
                         } else if (menuId == R.id.amazon) {
@@ -72,6 +73,7 @@ public class PharmacyTab extends Fragment {
 
         webView.setInitialScale(1);
         webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
