@@ -32,34 +32,72 @@
     .banner {
       width: 100%;
       height: 300px; /* Adjust the height as needed */
-      object-fit: cover;
+      /*object-fit: cover;*/
+      border: 1px solid #ddd;
+      padding: 5px;
     }
     .profile {
       float: left; /* Allow the image to float to the left of the text */
       margin-right: 15px; /* Add some space between the image and the text */
       width: 100px;  /* Adjust the width as needed */
       height: auto;
+      border: 1px solid #888;
+      padding: 5px;
     }.clearfix::after {
        content: "";
        display: table;
        clear: both;
      }
+     hr
+     .section-separator1 {
+      border: 0;
+        border-top: 1px solid #888;  /* Lighter color */
+        margin: 2px 0;               /* Reduced vertical margin */
+        width: 90%;                    /* Slightly wider line */
+    }
+    .section-separator2 {
+      border: 0;
+        border-top: 1px solid #999;  /* Lighter color */
+        margin: 1px 0;               /* Reduced vertical margin */
+        width: 70%;                    /* Slightly wider line */
+    }
+
+    .diagram-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    @media (max-width: 768px) {
+        .diagram-grid {
+            grid-template-columns: 1fr;
+        }
+    }.diagram-card img {
+        max-width: 500px;
+        width: 100%;
+        height: 300px;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+    
   </style>
 </head>
 <body>
 
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge_banner1.png" alt="Banner Image" class="banner">
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/CareBridge_banner1.png" alt="Banner Image" class="banner">
+
 <h2>Welcome To CareBridge!</h2>
-<p>CareBridge is a youth-led initiative to bridge healthcare accessibility gaps using AI technology. Why CareBridge? At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. Sarah Zhou launched the CareBridge initiative because she believes that access to basic health care is a human right, regardless of someone's specific conditions.</p>
+<p>CareBridge is a youth-led initiative to bridge healthcare accessibility gaps through multiple avenues including AI technology. Why CareBridge? At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. Sarah Zhou launched the CareBridge initiative because she believes that access to basic health care is a human right, regardless of someone's specific conditions.</p>
 
 <div class="clearfix">
 <h3>About Sarah Zhou</h3>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/SarahZhou_profile.jpg" alt="Sarah Zhou's Profile Picture" class="profile">
-<p>Sarah Zhou is the founder and president of the CareBridge initiative. She is a student at the Castilleja School (Palo Alto, CA), who enjoys coding and is passionate about making a positive impact on the world by leveraging her coding skills. She is active member of multiple STEM and engineering clubs at her school. She is also the founder and president of the "AI for Good Causes" club, as she believes in AI's power in creating a more equitable healthcare future for everyone.</p>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/SarahZhou_profile.jpg" alt="Sarah Zhou's Profile Picture" class="profile">
+<p>Sarah Zhou is the founder and president of the CareBridge initiative. She is a student at the Castilleja School (Palo Alto, CA), who enjoys coding and is passionate about making a positive impact on the world by leveraging her coding skills. She is an active member of multiple STEM and engineering clubs at her school. She is also the founder and president of the "AI for Good Causes" club, as she believes in AI's power in creating a more equitable healthcare future for everyone.</p>
 <p>Besides her passion for AI and STEM, she is also a varsity and club volleyball player, while being a classic piano player for 8 years.</p>
 </div>
 
+<hr class="section-separator1">
 <h2>The CareBridge App</h2>
+
 <h3>Demo & GitHub Project</h3>
 <p>To showcase AI's potential in tacking global health access chalelnges, Sarah Zhou built the CareBridge app, which is an AI-powered Android app designed to provide underrepresented communities with the tools and information to access basic healthcare. To see a 3.5-minute video demo of the CareBridge app, please see <a href="https://youtu.be/SSBY2XK9Ivg">here</a>. The source code for CareBridge is located <a href="https://github.com/sarahf-zh/my-android/tree/main/CareBridge">https://github.com/sarahf-zh/my-android/tree/main/CareBridge</a>.
 The app features:</p>
@@ -80,20 +118,55 @@ The app features:</p>
 </ul>
 
 <h3>Data Flow Diagrams</h3>
-<p>Below are CareBridge's Data Flow Diagrams:</p>
+<p>These diagrams visualize how user interactions flow through the CareBridge system:</p>
 
-<h4>1) Chat with Doctor Bot</h4>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow1.png" alt="Chat with Doctor Bot" width="500" height="180">
+<div class="diagram-grid">
+  <div class="diagram-card">
+      <h4>1) Chat with Doctor Bot</h4>
+      <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow1.png" alt="Chat flow diagram" 
+           style="max-width: 100%; height: auto;">
+  </div>
+  <div class="diagram-card">
+    <h4>2) Medical Advice Cards</h4>
+    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow2.png" alt="Medical Advice Cards" 
+         style="max-width: 100%; height: auto;">
+  </div>
+  <div class="diagram-card">
+    <h4>3) Online Pharmacy</h4>
+    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow3.png" alt="Online Pharmacy" 
+       style="max-width: 100%; height: auto;">
+  </div>
+  <div class="diagram-card">
+    <h4>4) Nearby Care Providers</h4>
+    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow4.png" alt="Nearby Care Providers" 
+       style="max-width: 100%; height: auto;">
+  </div>
+  <!-- Repeat for other 3 diagrams -->
+</div>
 
-<h4>2) Medical Advice Cards</h4>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow2.png" alt="Medical Advice Cards" width="500" height="180">
+<hr class="section-separator1">
+<h2>CareBridge Beyond the App</h2>
+<p>While our mobile application is a core component of our mission, CareBridge's commitment to health equity extends far beyond digital solutions. Here's how we're making an impact through multiple channels:</p>
 
-<h4>3) Online Pharmacy</h4>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow3.png" alt="Online Pharmacy" width="500" height="180">
+<div class="clearfix">
+<h3>Community Outreach & Partnerships</h3>
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Community_logo.png" alt="Community Outreach" class="profile" style="width:100px; height: 100px">
+<p>Build healthier communities with us:</p>
+<ul>
+  <li><b>Local Health Workshops:</b> Hosting free community health education sessions in partnership with schools and community centers</li>
+  <li><b>NGO Collaborations:</b> Working with established healthcare organizations to distribute medical supplies in underserved areas</li>
+</ul>
+</div>
 
-<h4>4) Nearby Care Providers</h4>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow4.png" alt="Nearby Care Providers" width="500" height="180">
-<br><br>
+<h3>Get Involved</h3>
+<div class="clearfix">
+<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Volunteer_logo.png" alt="Volunteers" class="profile" style="width:100px; height: 100px">
+<p>Join our effort for healthcare equity:</p>
+<ul>
+  <li><b>Volunteer Opportunities:</b> Help with app localization, community outreach, or content creation</li>
+  <li><b>Accessibility Advocacy:</b> Partnering with disability rights organizations to improve physical healthcare accessibility</li>
+</ul>
+</div>
 
 </body>
 </html>
