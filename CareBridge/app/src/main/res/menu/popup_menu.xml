@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/healthwarehouse"
-        android:title="HealthWarehouse Pharmacy"/>
+        android:id="@+id/altopharmacy"
+        android:title="Alto Pharmacy" />
 
     <item
         android:id="@+id/alldaychemist"
