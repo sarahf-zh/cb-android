@@ -1,4 +1,4 @@
-## Repo for Sarah Zhou's android apps
+## Repo for Sarah Zhou's CareBridge Android App
 
 ### CareBridge
 CareBridge is an Android app designed to address the HealthCare accessibility gap, by providing underrepresented communities with the tools and info to access basic healthcare. To see a 3.5-minute video demo of the CareBridge app, please see [here](https://youtu.be/SSBY2XK9Ivg). 
