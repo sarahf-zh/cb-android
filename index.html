@@ -1,179 +1,320 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="google-site-verification" content="TDboDPZ_spkew75o__T_twxVuDoNB7wEFCr27zfxLd4" />
-  <title>Welcome To CareBridge</title>
-  <link rel="canonical" href="https://sarahf-zh.github.io/cb-android/" />
-
-  <style>
-    body {
-      font-family: sans-serif;
-      line-height: 1.6;
-      font-size: 14px; /* Reduced base font size */
-    }
-    h1 {
-      font-size: 2em;
-    }
-    h2 {
-      font-size: 1.5em;
-    }
-    h3 {
-      font-size: 1.2em;
-    }
-    h4 {
-      font-size: 1em;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .banner {
-      
-      width: auto;       
-      max-width: 100%;   
-      height: 400px;     
-      object-fit: contain;     
-      
-      /*width: 100%;
-      height: auto;*/
-
-      /* common below */
-      display: block;
-      border: 1px solid #ddd;
-      padding: 5px;
-      margin: 0 auto;
-      border: 1px solid #ddd;
-      padding: 5px;
-    }
-    .profile {
-      float: left; /* Allow the image to float to the left of the text */
-      margin-right: 15px; /* Add some space between the image and the text */
-      width: 100px;  /* Adjust the width as needed */
-      height: auto;
-      border: 1px solid #999;
-      padding: 5px;
-    }.clearfix::after {
-       content: "";
-       display: table;
-       clear: both;
-     }
-     hr
-     .section-separator1 {
-      border: 0;
-        border-top: 1px solid #ddd;  /* Lighter color */
-        margin: 2px 0;               /* Reduced vertical margin */
-        width: 90%;                    /* Slightly wider line */
-    }
-    .diagram-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    @media (max-width: 768px) {
-        .diagram-grid {
-            grid-template-columns: 1fr;
-        }
-    }.diagram-card img {
-        max-width: 500px;
-        width: 100%;
-        height: 300px;
-        border: 1px solid #ddd;
-        padding: 5px;
-    }
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="google-site-verification" content="TDboDPZ_spkew75o__T_twxVuDoNB7wEFCr27zfxLd4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To CareBridge</title>
     
-  </style>
+    <link rel="canonical" href="https://sarahf-zh.github.io/cb-android/" />
+    
+    <style>
+        :root {
+            --bg-light-blue: #f0f8ff; /* Light background matching the header */
+            --header-blue: #0d47a1;  /* A deep, professional blue */
+            --text-dark: #333;
+            --text-light: #555;
+            --border-color: #ddd;
+            --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            --card-radius: 8px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            font-size: 16px;
+            background-color: var(--bg-light-blue);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* --- HEADER & BANNER --- */
+        header {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .banner {
+            width: 100%;
+            max-width: 1100px; /* Match container width */
+            height: auto;       /* Allow height to scale proportionally */
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* --- CONTENT CARD STYLING --- */
+        .card {
+            background-color: #ffffff;
+            border-radius: var(--card-radius);
+            box-shadow: var(--card-shadow);
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            overflow: hidden; /* Contains floats/flex children */
+        }
+        
+        /* --- NEW SUB-COMPONENT CARD STYLE --- */
+        .sub-card {
+            background: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: var(--card-radius);
+            padding: 20px 25px;
+            margin-top: 25px; /* Space it from the main H2 and other sub-cards */
+        }
+
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4 {
+            font-weight: 600;
+            color: var(--header-blue);
+            line-height: 1.3;
+            margin-top: 0;
+        }
+
+        h2 { font-size: 2.2em; border-bottom: 2px solid var(--border-color); padding-bottom: 10px; margin-bottom: 0; } 
+        h3 { font-size: 1.7em; margin-bottom: 15px; }
+        h4 { font-size: 1.2em; }
+
+        p, ul {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* --- LINK STYLE (UPDATED) --- */
+        a {
+            color: var(--header-blue); /* Changed to header blue */
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- FLEX LAYOUTS (Replaces old floats) --- */
+        .flex-container {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        .flex-container .flex-image {
+            flex-shrink: 0;
+            flex-basis: 100px; /* Adjusted to new smaller size */
+        }
+
+        .flex-container .flex-content {
+            flex-grow: 1;
+        }
+
+        .flex-container img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Make profile pics circular */
+            object-fit: cover;
+            border: 4px solid var(--border-color);
+            padding: 3px;
+            background: #fff;
+        }
+        
+        .community-logo {
+            width: 150px; /* Smaller size */
+            height: 150px; /* Smaller size */
+            border-radius: var(--card-radius); /* Match card radius */
+        }
+
+
+        /* --- DIAGRAM GRID --- */
+        .diagram-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .diagram-card {
+            border: 1px solid var(--border-color);
+            border-radius: var(--card-radius);
+            background: #ffffff; /* Set to white to stand out from sub-card bg */
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .diagram-card:hover {
+            box-shadow: var(--card-shadow);
+            transform: translateY(-5px);
+        }
+
+        .diagram-card h4 {
+            margin-bottom: 15px;
+        }
+
+        .diagram-card img {
+            width: 100%;
+            height: auto;
+            max-width: 500px; /* Limit max size */
+            border-radius: 4px;
+            border: 1px solid #eee;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .flex-container.reverse {
+                 flex-direction: column-reverse;
+            }
+
+            .diagram-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h2 { font-size: 1.8em; }
+            h3 { font-size: 1.4em; }
+        }
+
+    </style>
 </head>
 <body>
 
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/CareBridge_banner1.png" alt="Banner Image" class="banner">
+    <header>
+        <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/CareBridge_banner1.png" alt="CareBridge Banner" class="banner">
+    </header>
 
-<hr class="section-separator1">
-<h2>Welcome To CareBridge!</h2>
-<p>CareBridge is a youth-led initiative to bridge healthcare accessibility gaps through multiple avenues including AI technology. Why CareBridge? At least half of the world's population lacks access to quality healthcare, and approximately one hundred million people cannot afford high healthcare costs. Furthermore, at least two billion people worldwide experience visual impairments, making everyday tasks like navigating online maps a significant challenge. Sarah Zhou launched the CareBridge initiative because she believes that access to basic health care is a human right, regardless of someone's specific conditions.</p>
+    <main class="container">
+        <section id="welcome" class="card">
+            <h2>Welcome To CareBridge!</h2>
+            <p>We believe that access to basic healthcare is a fundamental human right, not a privilege. But for so many, that's not the reality. It's a staggering thought that half the world's population lacks quality care, 100 million are pushed into poverty by health costs, and 2 billion people with visual impairments face accessibility barriers every day. This is why Sarah Zhou founded CareBridge. We're a youth-led initiative, and we're tackling these gaps head-on using AI and community action, driven by the simple idea that care should be accessible to everyone, regardless of their condition.</p>
+        </section>
 
-<div class="clearfix">
-<h3>About Sarah Zhou</h3>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/SarahZhou_profile.jpg" alt="Sarah Zhou's Profile Picture" class="profile">
-<p>Sarah Zhou is the founder and president of the CareBridge initiative. She is a student at the Castilleja School (Palo Alto, CA), who enjoys coding and is passionate about making a positive impact on the world by leveraging her coding skills. She is an active member of multiple STEM and engineering clubs at her school. She is also the founder and president of the "AI for Good Causes" club, as she believes in AI's power in creating a more equitable healthcare future for everyone.</p>
-<p>Besides her passion for AI and STEM, she is also a varsity and club volleyball player, while being a classic piano player for 8 years.</p>
-</div>
+        <section id="about" class="card">
+            <div class="flex-container">
+                <div class="flex-image">
+                    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/SarahZhou_profile.jpg" alt="Sarah Zhou's Profile Picture" class="profile-pic">
+                </div>
+                <div class="flex-content">
+                    <h3>About Sarah Zhou</h3>
+                    <p>CareBridge is founded and led by Sarah Zhou, a student at the Castilleja School (Palo Alto, CA). You can learn more about her on <a href="https://www.linkedin.com/in/sarahfayzhou/" target="_blank" rel="noopener noreferrer">her LinkedIn profile</a>. She's passionate about using her coding skills for social good and believes strongly in AI's potential to build a more equitable healthcare future. This passion led her to found the "AI for Good Causes" club at her school, where she is also an active member of multiple STEM and engineering clubs.</p>
+                    <p>Beyond her commitment to AI and STEM, Sarah enjoys creative writing, has been playing classical piano since age 7 and plays volleyball for both her school's varsity team and volleyball clubs.</p>
+                </div>
+            </div>
+        </section>
 
-<hr class="section-separator1">
-<h2>The CareBridge App</h2>
+        <section id="app" class="card">
+            <h2>The CareBridge App</h2>
+            
+            <div class="sub-card">
+                <h3>Demo & GitHub Project</h3>
+                <p>The CareBridge app is a tangible demonstration of our mission. Built by Sarah Zhou, this AI-powered Android application is engineered to equip underrepresented communities with essential tools and information for accessing basic healthcare. You can watch a 3.5-minute demo video <a href="https://youtu.be/SSBY2XK9Ivg" target="_blank" rel="noopener noreferrer">here</a> or explore the complete open-source code on <a href="https://github.com/sarahf-zh/my-android/tree/main/CareBridge" target="_blank" rel="noopener noreferrer">GitHub</a>. Key app functions include:</p>
+                <ul>
+                    <li>An intelligent "Doctor Bot," powered by AI, that offers a preliminary diagnostic chat.</li>
+                    <li>A library of speech-to-text enabled medical advice cards for easy listening.</li>
+                    <li>A built-in web browser pre-loaded with three online pharmacy options.</li>
+                    <li>A specially customized map, designed for accessibility, to help visually impaired users locate nearby healthcare facilities.</li>
+                </ul>
+            </div>
+            
+            <div class="sub-card">
+                <h3>Technologies Behind CareBridge</h3>
+                <p>To power these features, the CareBridge app is built on a robust stack of modern APIs and libraries:</p>
+                <ul>
+                    <li><b>Android SDK</b>: Provides the core foundation, used for building the UI with Material Design, managing map and web views, enabling speech recognition, and utilizing view binding.</li>
+                    <li><b>Third-Party Libraries</b>: Integrates key libraries including <b>Volley</b> and <b>Retrofit</b> for network requests, <b>Dagger</b> for dependency injection, and <b>Picasso</b> for efficient image loading.</li>
+                    <li><b>Google Cloud Dialogflow ES API</b>: Serves as the connector to a Large Language Model (like Gemini or ChatGPT) that drives the intelligent "Doctor Bot" functionality.</li>
+                    <li><b>Google Maps Places API</b>: Feeds the map feature, enabling real-time searches for nearby care providers relevant to the user's current location.</li>
+                </ul>
+            </div>
 
-<h3>Demo & GitHub Project</h3>
-<p>To showcase AI's potential in tacking global health access chalelnges, Sarah Zhou built the CareBridge app, which is an AI-powered Android app designed to provide underrepresented communities with the tools and information to access basic healthcare. To see a 3.5-minute video demo of the CareBridge app, please see <a href="https://youtu.be/SSBY2XK9Ivg">here</a>. The source code for CareBridge is located <a href="https://github.com/sarahf-zh/my-android/tree/main/CareBridge">https://github.com/sarahf-zh/my-android/tree/main/CareBridge</a>.
-The app features:</p>
-<ul>
-  <li>A doctor-like ChatBot powered by AI offering preliminary diagnosis.</li>
-  <li>A set of medical advice cards with speech-to-text capability.</li>
-  <li>An embedded web browser showing three online pharmacies.</li>
-  <li>A customized map that is easily accessible for visually impaired users to find nearby healthcare providers.</li>
-</ul>
+            <div class="sub-card">
+                <h3>Data Flow Diagrams</h3>
+                <p>The following diagrams illustrate the application's architecture and user flow for each core function:</p>
 
-<h3>Technologies Behind CareBridge</h3>
-<p>CareBridge leverages a variety of libraries and APIs to deliver its features:</p>
-<ul>
-  <li><b>Android SDK</b>: Used for core application development, including UI design with Material Design components, map views, web views, speech to text, and view binding.</li>
-  <li><b>Third-Party Libraries</b>: Utilizes libraries like Volley, Retrofit, Dagger, and Picasso for networking, dependency injection, and image loading.</li>
-  <li><b>Google Cloud Dialogflow ES API</b>: Connects to a LLM (ChatGPT or Google Gemini) driven agent to power the "Doctor Bot" chat functionality.</li>
-  <li><b>Google Maps Places API</b>: Enables the app to search for and display nearby health care providers based on the user's location.</li>
-</ul>
+                <div class="diagram-grid">
+                    <div class="diagram-card">
+                        <h4>1) Chat with Doctor Bot</h4>
+                        <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow1.png" alt="Chat flow diagram">
+                    </div>
+                    <div class="diagram-card">
+                        <h4>2) Medical Advice Cards</h4>
+                        <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow2.png" alt="Medical Advice Cards">
+                    </div>
+                    <div class="diagram-card">
+                        <h4>3) Online Pharmacy</h4>
+                        <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow3.png" alt="Online Pharmacy">
+                    </div>
+                    <div class="diagram-card">
+                        <h4>4) Nearby Care Providers</h4>
+                        <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow4.png" alt="Nearby Care Providers">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="beyond-app" class="card">
+            <h2>CareBridge Beyond the App</h2>
+            <p>Our commitment to health equity goes beyond just digital tools. While the app is a core part of our mission, we recognize that technology alone isn't the solution. CareBridge is also making an impact through the following community-focused channels:</p>
 
-<h3>Data Flow Diagrams</h3>
-<p>These diagrams visualize how user interactions flow through the CareBridge system:</p>
+            <div class="flex-container" style="margin-top: 30px;">
+                <div class="flex-image">
+                    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Community_logo.png" alt="Community Outreach" class="community-logo">
+                </div>
+                <div class="flex-content">
+                    <h3>Community Outreach & Partnerships</h3>
+                    <p>Help us build a healthier, more equitable future:</p>
+                    <ul>
+                        <li><b>Local Health Workshops:</b> We host free educational health sessions in collaboration with local schools and community centers.</li>
+                        <li><b>NGO Collaborations:</b> We partner with established healthcare organizations to fundraise directly for patients in underserved regions.</li>
+                        <li><b>Multilingual Resources:</b> We create and distribute health guides in multiple languages, specifically to support populations with limited digital connectivity.</li>
+                    </ul>
+                </div>
+            </div>
 
-<div class="diagram-grid">
-  <div class="diagram-card">
-      <h4>1) Chat with Doctor Bot</h4>
-      <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow1.png" alt="Chat flow diagram" 
-           style="max-width: 100%; height: auto;">
-  </div>
-  <div class="diagram-card">
-    <h4>2) Medical Advice Cards</h4>
-    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow2.png" alt="Medical Advice Cards" 
-         style="max-width: 100%; height: auto;">
-  </div>
-  <div class="diagram-card">
-    <h4>3) Online Pharmacy</h4>
-    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow3.png" alt="Online Pharmacy" 
-       style="max-width: 100%; height: auto;">
-  </div>
-  <div class="diagram-card">
-    <h4>4) Nearby Care Providers</h4>
-    <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/CareBridge/screen_snapshots/Flow4.png" alt="Nearby Care Providers" 
-       style="max-width: 100%; height: auto;">
-  </div>
-  <!-- Repeat for other 3 diagrams -->
-</div>
+            <div class="flex-container reverse" style="margin-top: 30px;">
+                <div class="flex-content">
+                    <h3>Get Involved</h3>
+                    <p>You can be a part of our movement for healthcare equity:</p>
+                    <ul>
+                        <li><b>Volunteer Opportunities:</b> We are always looking for help with app localization, community outreach efforts, and new content creation.</li>
+                        <li><b>Accessibility Advocacy:</b> We work alongside disability rights organizations to champion and improve accessibility in physical healthcare spaces.</li>
+                    </ul>
+                </div>
+                <div class="flex-image">
+                     <img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Volunteer_logo.png" alt="Volunteers" class="community-logo">
+                </div>
+            </div>
+        </section>
+    </main>
 
-<hr class="section-separator1">
-<h2>CareBridge Beyond the App</h2>
-<p>While our mobile application is a core component of our mission, CareBridge's commitment to health equity extends far beyond digital solutions. Here's how we're making an impact through multiple channels:</p>
-
-<div class="clearfix">
-<h3>Community Outreach & Partnerships</h3>
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Community_logo.png" alt="Community Outreach" class="profile" style="width:100px; height: 100px">
-<p>Build healthier communities with us:</p>
-<ul>
-  <li><b>Local Health Workshops:</b> Hosting free community health education sessions in partnership with schools and community centers</li>
-  <li><b>NGO Collaborations:</b> Working with established healthcare organizations to distribute medical supplies in underserved areas</li>
-</ul>
-</div>
-
-<h3>Get Involved</h3>
-<div class="clearfix">
-<img src="https://raw.githubusercontent.com/sarahf-zh/my-android/main/icons/Volunteer_logo.png" alt="Volunteers" class="profile" style="width:100px; height: 100px">
-<p>Join our effort for healthcare equity:</p>
-<ul>
-  <li><b>Volunteer Opportunities:</b> Help with app localization, community outreach, or content creation</li>
-  <li><b>Accessibility Advocacy:</b> Partnering with disability rights organizations to improve physical healthcare accessibility</li>
-</ul>
-</div>
+    <footer>
+        <p>© 2024 CareBridge Initiative. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
